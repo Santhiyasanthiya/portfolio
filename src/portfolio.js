@@ -27,7 +27,7 @@ export const main = {
 
 // AboutMe
 export const aboutme = {
-    imgLink: "https://pbs.twimg.com/media/FLuc7e7aUAcpyDm?format=jpg&name=small",
+   
     p1: "Hey,My name is Santhiya. I seek to work in a competitive field and ready to accept the challenges, utilizing my skills would like to work with a highly esteemed company  which gives me a platform to use my expertise and  skills for mutual growth and  benefit of company and myself.",
     p2: "Born: 6 Dec 1997",
     p3:"Department: IT",
