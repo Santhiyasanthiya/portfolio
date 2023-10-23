@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { MdSchool , MdVaccines} from "react-icons/md";
+import { MdSchool , MdVaccines, MdWork} from "react-icons/md";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiPostman } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
@@ -22,6 +22,47 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h1>
         <VerticalTimeline lineColor={"#00FFFF"}>
+
+
+
+        <VerticalTimelineElement
+            date={"Aug 2023 - Present"}
+            contentStyle={{
+              boxShadow: `white`,
+              border: "3px solid blue",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  blue",
+            }}
+            iconStyle={{
+              border: ` 3px solid darkblue`,
+              backgroundColor: `white`,
+              color: `crimson`,
+            }}
+            icon={<MdWork />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+             Guvi Geek Networks Private Limited
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              in Chennai
+              
+            </h4>
+            <p data-aos="fade-right">
+              I'm Working Intern as "Mentor Tech Support"
+            </p>
+          </VerticalTimelineElement>
+
+
           <VerticalTimelineElement
             date={"Oct 2022 - Apr 2023"}
             contentStyle={{
@@ -45,7 +86,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              GUVI IIT MADRAS
+             Guvi Geek Networks, IITM Research Park
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -77,7 +118,7 @@ export const Timeline = () => {
                 backgroundColor: `white`,
                 color: `crimson`,
               }}
-            icon={<BsBook />}
+            icon={<MdWork />}
           >
             <h3
               className="vertical-timeline-element-title"
@@ -92,7 +133,7 @@ export const Timeline = () => {
               in Gudiyatham
             </h4>
             <p data-aos="fade-right">
-            Worked as a EVS Teacher ( Ashirwad International CBSE School )
+            I Worked as  EVS Teacher & kids care 
             </p>
           </VerticalTimelineElement>
 
@@ -128,7 +169,7 @@ export const Timeline = () => {
               in Chennai
             </h4>
             <p data-aos="fade-right">
-            Worked as a Staff Nurse ( Fertility Dep )
+           I Worked as  Staff Nurse ( Fertility & Andro department )
             </p>
           </VerticalTimelineElement>
           

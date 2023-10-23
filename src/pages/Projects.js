@@ -13,4 +13,4 @@ const Projects = () => {
     </section>
 }
 
-export default Projects
+export default Projects 
