@@ -169,13 +169,13 @@ export const Timeline = () => {
               in Chennai
             </h4>
             <p data-aos="fade-right">
-           I Worked as  Staff Nurse ( Fertility & Andro department )
+           I Worked as Staff Nurse Fertility & Andro department
             </p>
           </VerticalTimelineElement>
           
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jul 2015 - Apr 2017"}
+            date={"Jul 2015 - Apr 2016"}
             contentStyle={{
                 boxShadow: `white`,
                 border: "3px solid blue",
@@ -197,7 +197,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Abhijay institute of Health Science 
+              Abhijay Institute of Health Science 
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -239,7 +239,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              in Gudiyattam
+              in Gudiyatham
             </h4>
             <p data-aos="fade-right">
               Studied HSC History <br/> State Board
