@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet"; // Ensure this is imported
+import { Helmet } from "react-helmet"; // Import react-helmet
 import Navbar from "./components/NavBar/Navbar";
 import "./App.css";
 import Main from "./pages/Main";
@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import { globalStyles } from "./portfolio";
 import Loader from "./components/loaders/Loader";
 import ReactGA from "react-ga";
+
 ReactGA.initialize("UA-208216831-1");
 
 function App() {
@@ -25,7 +26,6 @@ function App() {
   const maincontent = (
     <div>
       <Helmet>
-        {/* SEO Meta Tags */}
         <title>Santhiya | Full Stack Developer</title>
         <meta
           name="description"
@@ -33,18 +33,20 @@ function App() {
         />
         <meta
           name="keywords"
-          content="drones, drone seller, advanced drones, Zuppa, drone technology, drone store, buy drones online"
+          content="Full Stack Developer, React, Node.js, Zuppa, web development"
         />
-        <meta property="og:title" content="Santhiya | Zuppa Company" />
-        <meta property="og:description" content="Web Developer" />
+        <meta property="og:title" content="Santhiya | Full Stack Developer" />
+        <meta
+          property="og:description"
+          content="Explore the portfolio of Santhiya, a passionate full stack developer."
+        />
         <meta property="og:image" content="link_to_your_image.jpg" />
         <meta
           property="og:url"
-          content="https://santhiya-k-portfolio.vercel.app/#/"
+          content="https://santhiya-k-portfolio.vercel.app"
         />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Helmet>
 
       <Navbar />
