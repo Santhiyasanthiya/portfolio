@@ -1,6 +1,6 @@
 import React from "react";
 import { aboutme } from "../portfolio";
-import profilePic from "../Assets/profile-pic.png"
+import profilePic from "../Assets/profile-pic.jpeg"
 import Fade from "react-reveal/Fade";
 import "./Aboutme.css";
 import { Timeline } from "./Timeline";
