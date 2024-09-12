@@ -33,7 +33,7 @@ function App() {
         />
         <meta
           name="keywords"
-          content="Full Stack Developer, React, Node.js, Zuppa, web development"
+          content="Full Stack Developer, React.js, Node.js, Zuppa, web development, Mongo DB"
         />
         <meta property="og:title" content="Santhiya | Full Stack Developer" />
         <meta
@@ -48,10 +48,6 @@ function App() {
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-
-
-
-
       <Navbar />
       <Main />
       <Aboutme />
