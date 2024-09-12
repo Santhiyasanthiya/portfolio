@@ -29,9 +29,9 @@ function App() {
         <title>Santhiya | Full Stack Developer</title>
         <meta
           name="description"
-          content="Hello Everyone, I am Santhiya, a Full Stack Developer working at Zuppa."
+          content="Hello Everyone,I am Santhiya, a Full Stack Developer working at Zuppa. main "
         />
-        
+
         <meta
           name="keywords"
           content="Full Stack Developer, React.js, Node.js, Zuppa, web development, Mongo DB"
